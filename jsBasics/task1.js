@@ -1,0 +1,10 @@
+let str = "Hello";
+let num = 99;
+let bool = true;
+let nullVar = null;
+let undefinedVar;
+console.log(str);
+console.log(num);
+console.log(bool);
+console.log(nullVar);
+console.log(undefinedVar);
