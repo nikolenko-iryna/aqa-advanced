@@ -1,7 +1,10 @@
 
-const arrayUsers = [{name: 'Maria', email:'1243@gvail.com', age:25},
-                    {name: 'Alex', email:'test@gvail.com', age:38}];
-                    for (let element of arrayUsers) {
+                    const users = [{name: 'Maria'}, { email:'test@gvail.com'}, {age:25}];
+                    for (let element of users) {
                         const {name, email, age} = element;
-                        console.log (name, email, age);
+                        const users1 = name ??'Unnamed';
+                        const users2 = email ?? 'Without an email';
+                        const users3 = age ?? 'Age not specified';
+                        console.log(users1, users2,users3);
                     }
+        
